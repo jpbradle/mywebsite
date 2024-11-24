@@ -11,19 +11,31 @@
             padding: 0;
             background-color: #f4f4f9;
             color: #333;
+			display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
         }
         header {
-            background-color: #6200ea;
-            color: white;
+            background-color: #76464f;
+            color: #e6db8b;
             padding: 10px 20px;
             text-align: center;
+            width: 100%;
         }
         main {
-            padding: 20px;
+            text-align: center;
+            margin: 20px;
+        }
+		img {
+            max-width: 100%;
+            height: auto;
+            margin: 20px 0;
         }
         footer {
-            background-color: #6200ea;
-            color: white;
+            background-color: #76464f;
+            color: #e6db8b;
             text-align: center;
             padding: 10px;
             position: fixed;
@@ -37,11 +49,10 @@
         <h1>Welcome to My Website</h1>
     </header>
     <main>
-        <p>This is a simple HTML page with basic styling.</p>
-        <p>You can add more content here as needed!</p>
+        <img src="with-text-logo.png" alt="TheJohnBradley.net">
     </main>
     <footer>
-        &copy; 2024 My Website
+        &copy; 2024 TheJohnBradley.net
     </footer>
 </body>
 </html>
